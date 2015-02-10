@@ -32,15 +32,13 @@
 # === Authors
 #
 # Tobias Nyholm <tobias@happyrecruiting.se>
+# Weston Ruter <weston@xwp.co>
 #
 # === Copyright
 #
 # Copyright 2012-2013 Nodes, unless otherwise noted.
 #
 class php::phpunit::params {
-
-  $ensure   = $php::params::ensure
-  $package  = 'pear.phpunit.de/PHPUnit'
-  $provider = 'pear'
-
+  $source = 'https://phar.phpunit.de/phpunit.phar'
+  $destination = '/usr/local/bin/phpunit'
 }
